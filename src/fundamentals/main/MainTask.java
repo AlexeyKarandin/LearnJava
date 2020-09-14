@@ -15,6 +15,9 @@ public class MainTask {
         System.out.println();
         // 3. Вывести заданное количество случайных чисел с переходом и без перехода на новую строку
         for (int i = 0; i < Integer.parseInt(args[2]); ++i) {
+            System.out.println((int) (Math.random() * 10) + " ");
+        }
+        for (int i = 0; i < Integer.parseInt(args[2]); ++i) {
             System.out.print((int) (Math.random() * 10) + " ");
         }
         System.out.println();
